@@ -1,3 +1,8 @@
+GIPHY_API_URL-zdefiniować
+
+GIPHY_PUB_KEY
+
+
  var App = React.createClass({
     render: function() {
 
@@ -19,10 +24,9 @@
                 url={this.state.gif.url}
                 sourceUrl={this.state.gif.sourceUrl}
             />
-            />
           </div>
         );
-    }
+    },
 
     getInitialState() {
         return {

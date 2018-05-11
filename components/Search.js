@@ -13,7 +13,7 @@ var Search = React.createClass({
              style={styles}
              value={this.state.searchTerm}
             />
-  }
+  },
 
     getInitialState() {
         return {
