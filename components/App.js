@@ -42,7 +42,7 @@ const GIPHY_PUB_KEY='dmEpis77lFhUpd34BHhiTLz9jP4sGwa7';
             }
         };
         xhr.send();
-    }
+    },
     render: function() {
 
         var styles = {
